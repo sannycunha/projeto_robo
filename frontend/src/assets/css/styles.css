@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+:root {
+    --color-primary: #39866b;
+}
+html, body {
+    font-family: "Ubuntu", sans-serif;
+    width: 97%;
+    height: 100%;
+    position: relative;
+    left: 1.5%;
+}
+body{
+    background: #D3D3D3;
+    display: grid;
+   /* place-items: center;*/
+    height: 100vw;
+}
+header{
+    color: white;
+    height: 105px;
+    background: rgb(70, 69, 69);
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    max-width: 98%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+}
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+.text-primary {
+    color: var(--color-primary) !important;
+}
+/*NavBar*/
+.navBar{
+    width: 100%;
+    position: relative;
+    font-family: 'Lato', sans-serif;  
+}
+.nav-link{
+    color:white;
+}
+.space{
+    padding-left: 2px;
+}
+.box{
+    margin-left: 10%;
+}
+/*Formulário de cadastro*/
+.form-login{
+    max-width: 28%;  
+    margin: 5px 20px;  
+    position: relative;
+    left: 74%;
+}
+label{
+    margin: 10px;
+    margin-top: 0px;
+}
+input{
+    font-size: x-small;
+}
+button{
+    margin: 10px;
+    margin-top: 0px;
+}
+.button-env{
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0px 25px 0px 20px;
+    border-color: #778899;
+    background-color: #000;
+    color: aliceblue;
+    opacity: 25%;
+}
+/*auterações no perfio dos alunos*/
+.card-studens-outside{
+    background: #D3D3D3;
+    max-width: 80%;
+    margin: 10%;
+    margin-top: 0;
+    border-radius: 20px 35px 45px;
+    border-color: aquamarine;
+   -moz-border-radius: 20px 35px 45px #000;
+   -webkit-border-radius: 20px 35px 45px #000;
+}
+.card-studens{
+    background: #DCDCDC;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 20px;
+    border-radius: 20px 35px 45px;
+    box-shadow: 3px 1px 6px #000;
+    -moz-border-radius: 20px 35px 45px #000;
+    -webkit-border-radius: 20px 35px 45px #000;
+    text-align: justify;
+}
+/* cadastro */
+.form-cadastro{
+    max-width: 28%;  
+    margin: 5px 20px;  
+    position: relative;
+    right: 1%;
+}
+label{
+    margin: 20px;
+    margin-top: 0px;
+}
+input{
+    font-size: x-small;
+}
+button{
+    margin: 20px;
+    margin-top: 0px;
+}
+.button-env{
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0px 25px 0px 20px;
+    border-color: #778899;
+    background-color: #000;
+    color: aliceblue;
+    opacity: 25%;
+}
